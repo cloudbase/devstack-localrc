@@ -12,7 +12,7 @@
 HOST_IP=x.y.z.w
 
 disable_service n-net
-disable_service n-cpu
+enable_service n-cpu
 enable_service rabbit
 enable_service q-svc
 enable_service q-agt
